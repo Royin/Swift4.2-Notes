@@ -364,8 +364,8 @@ var currentValue2 = -4
 let moveNearerToZero2 = chooseStepFunction(backward: currentValue2 > 0)
 // moveNearerToZero now refers to the nested stepForward() function
 while currentValue2 != 0 {
-    print("\(currentValue)... ")
-    currentValue = moveNearerToZero(currentValue)
+    print("\(currentValue2)... ")
+    currentValue2 = moveNearerToZero(currentValue2)
 }
 print("zero!")
 // -4...
