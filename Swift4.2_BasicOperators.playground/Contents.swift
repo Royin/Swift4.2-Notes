@@ -293,7 +293,7 @@ if  enteredDoorCode && passedRetinaScan || hasDoorKey || knowsOverridePassword {
 
 
 
-// - - 显示括号
+// - - 显式括号
 if (enteredDoorCode && passedRetinaScan) || hasDoorKey || knowsOverridePassword {
     // 括号增加可读性
     print("Welcome!")
