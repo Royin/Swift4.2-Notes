@@ -79,15 +79,15 @@ default:
  Swift 会暴露一个包含对应枚举类型所有情况的集合名为 allCases
  */
 
-//enum Beverage: CaseIterable { // 4.2 新增特性
-//    case coffee, tea, juice
-//}
-//let numberOfChoices = Beverage.allCases.count
-//print("\(numberOfChoices) beverages available")
-//
-//for beverage in Beverage.allCases {
-//    print(beverage)
-//}
+enum Beverage: CaseIterable { // 4.2 新增特性
+    case coffee, tea, juice
+}
+let numberOfChoices = Beverage.allCases.count
+print("\(numberOfChoices) beverages available")
+
+for beverage in Beverage.allCases {
+    print(beverage)
+}
 
 
 
